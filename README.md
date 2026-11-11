@@ -24,7 +24,7 @@ Production-ready Instagram Comment-to-DM automation tool built with Next.js App 
    - `INSTAGRAM_PAGE_ACCESS_TOKEN`
    - `INSTAGRAM_VERIFY_TOKEN`
    - `INSTAGRAM_ACCOUNT_ID`
-   - `NEXT_PUBLIC_SUPABASE_URL`
+   - `SUPABASE_URL`
    - `SUPABASE_SERVICE_ROLE_KEY`
 
 3. **Run Locally**:

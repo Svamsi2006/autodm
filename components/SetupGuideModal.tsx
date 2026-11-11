@@ -102,7 +102,7 @@ export default function SetupGuideModal({
               <li>INSTAGRAM_PAGE_ACCESS_TOKEN</li>
               <li>INSTAGRAM_VERIFY_TOKEN</li>
               <li>INSTAGRAM_ACCOUNT_ID</li>
-              <li>NEXT_PUBLIC_SUPABASE_URL</li>
+              <li>SUPABASE_URL</li>
               <li>SUPABASE_SERVICE_ROLE_KEY</li>
             </ul>
           </div>

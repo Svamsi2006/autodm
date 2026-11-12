@@ -58,7 +58,9 @@ export async function POST(request: NextRequest) {
 
   try {
     payload = (await request.json()) as MetaWebhookPayload;
+    console.log("=== INCOMING WEBHOOK DATA ===", JSON.stringify(payload, null, 2));
   } catch {
+    console.error("=== INCOMING WEBHOOK ERROR: INVALID JSON ===");
     return NextResponse.json(
       { error: "Invalid JSON payload." },
       { status: 400 }
